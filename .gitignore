@@ -1,0 +1,9 @@
+cache
+.doit.db
+.doit.db.*
+.project
+.pydevproject
+.settings
+.setting/*
+__pycache__
+output
