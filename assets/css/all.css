@@ -50,7 +50,7 @@ div.admonition, div.attention, div.caution, div.danger, div.error,
 div.hint, div.important, div.note, div.tip, div.warning, div.sidebar {
 /* stolen from Boostrap 3 (.panel .panel-default) */
   margin-bottom: 20px;
-  background-color: #fff;
+  background: url(../img/background.jpg) no-repeat center top;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -80,7 +80,6 @@ div.warning p.admonition-title {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   color: #333;
-  background-color: #F5F5F5;
   border-color: #DDD;
 }
 

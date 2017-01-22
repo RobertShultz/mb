@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -1086,7 +1086,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background: url(../img/background.jpg) no-repeat center top;
+  background-size: cover
 }
 input,
 button,
@@ -1264,7 +1265,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 20px;
 }
 h2,
 .h2 {
@@ -1586,6 +1587,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background: url(../img/backgound.jpg) no-repeat center top;
 }
 @media (min-width: 768px) {
   .container {
